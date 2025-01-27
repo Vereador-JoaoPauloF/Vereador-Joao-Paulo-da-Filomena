@@ -1,0 +1,183 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Vereador Nome</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <!-- Cabeçalho -->
+    <header>
+        <div class="container">
+            <h1>Vereador Nome</h1>
+            <nav>
+                <ul>
+                    <li><a href="#home">Início</a></li>
+                    <li><a href="#demandas">Demandas Atendidas</a></li>
+                    <li><a href="#agenda">Agenda de Eventos</a></li>
+                    <li><a href="#utilidades">Utilidades Públicas</a></li>
+                    <li><a href="#contato">Contato</a></li>
+                </ul>
+            </nav>
+        </div>
+    </header>
+
+    <!-- Seção Início -->
+    <section id="home" class="home">
+        <div class="container">
+            <h2>Bem-vindo ao site do Vereador Nome</h2>
+            <p>Comunicando e conectando a comunidade com a política.</p>
+        </div>
+    </section>
+
+    <!-- Demandas Atendidas -->
+    <section id="demandas" class="demandas">
+        <div class="container">
+            <h2>Demandas Atendidas</h2>
+            <ul>
+                <li>Projeto de Lei de Melhoria na Saúde</li>
+                <li>Reforma da Praça Central</li>
+                <li>Atendimento a demandas de segurança no bairro X</li>
+            </ul>
+        </div>
+    </section>
+
+    <!-- Agenda de Eventos -->
+    <section id="agenda" class="agenda">
+        <div class="container">
+            <h2>Agenda de Eventos</h2>
+            <p>Próximos eventos: </p>
+            <ul>
+                <li>Visita à comunidade Y - 10/02/2025</li>
+                <li>Sessão na Câmara - 15/02/2025</li>
+            </ul>
+        </div>
+    </section>
+
+    <!-- Utilidades Públicas -->
+    <section id="utilidades" class="utilidades">
+        <div class="container">
+            <h2>Utilidades Públicas</h2>
+            <ul>
+                <li><a href="#">Coleta de Lixo</a></li>
+                <li><a href="#">Transporte Público</a></li>
+                <li><a href="#">Reclamações Online</a></li>
+            </ul>
+        </div>
+    </section>
+
+    <!-- Contato via WhatsApp -->
+    <section id="contato" class="contato">
+        <div class="container">
+            <h2>Fale com o Vereador</h2>
+            <p>Entre em contato diretamente via WhatsApp:</p>
+            <a href="https://wa.me/55[SEU_NUMERO]" target="_blank" class="whatsapp-btn">WhatsApp</a>
+        </div>
+    </section>
+
+    <!-- Rodapé -->
+    <footer>
+        <div class="container">
+            <p>&copy; 2025 Vereador Nome. Todos os direitos reservados.</p>
+        </div>
+    </footer>
+
+</body>
+</html>
+
+/* Estilo geral */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: Arial, sans-serif;
+    line-height: 1.6;
+    background-color: #f4f4f4;
+}
+
+.container {
+    width: 80%;
+    margin: 0 auto;
+    max-width: 1200px;
+}
+
+header {
+    background-color: #333;
+    color: #fff;
+    padding: 10px 0;
+}
+
+header h1 {
+    text-align: center;
+    font-size: 36px;
+}
+
+nav ul {
+    display: flex;
+    justify-content: center;
+    list-style-type: none;
+}
+
+nav ul li {
+    margin: 0 15px;
+}
+
+nav ul li a {
+    color: #fff;
+    text-decoration: none;
+    font-size: 18px;
+}
+
+section {
+    padding: 20px 0;
+    margin-bottom: 20px;
+}
+
+h2 {
+    color: #333;
+    margin-bottom: 15px;
+}
+
+ul {
+    list-style-type: none;
+}
+
+ul li {
+    margin-bottom: 10px;
+}
+
+a {
+    text-decoration: none;
+}
+
+a:hover {
+    text-decoration: underline;
+}
+
+/* WhatsApp Button */
+.whatsapp-btn {
+    display: inline-block;
+    background-color: #25D366;
+    color: #fff;
+    padding: 10px 20px;
+    border-radius: 5px;
+    font-size: 16px;
+    text-align: center;
+}
+
+.whatsapp-btn:hover {
+    background-color: #128C7E;
+}
+
+/* Rodapé */
+footer {
+    background-color: #333;
+    color: #fff;
+    padding: 10px 0;
+    text-align: center;
+}
+
